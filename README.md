@@ -3,7 +3,7 @@
 A curated list of awesome machine learning frameworks, libraries and software (by language). Inspired by awesome-php.
 Other awesome lists can be found in the [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) list.
 
-If you want to contribute to this list (please do), send me a pull request or contact me [@josephmisiti](https://www.twitter.com/josephmisiti)
+If you want to contribute to this list (please do), send me a pull request or contact me [@josephmisiti](https://twitter.com/josephmisiti)
 
 For a list of free machine learning books available for download, go [here](https://github.com/josephmisiti/awesome-machine-learning/blob/master/books.md).
 
@@ -66,7 +66,7 @@ For a list of free machine learning books available for download, go [here](http
 - [PHP](#php)
     - [General-Purpose Machine Learning](#php-general-purpose)
 - [Python](#python)
-    - [Computer Vision](#python-P)
+    - [Computer Vision](#python-cv)
     - [Natural Language Processing](#python-nlp)
     - [General-Purpose Machine Learning](#python-general-purpose)
     - [Data Analysis / Data Visualization](#python-data-analysis)
@@ -127,21 +127,21 @@ For a list of free machine learning books available for download, go [here](http
 * [Shogun](https://github.com/shogun-toolbox/shogun) - The Shogun Machine Learning Toolbox
 * [Caffe](http://caffe.berkeleyvision.org)  - A deep learning framework developed with cleanliness, readability, and speed in mind. [DEEP LEARNING]
 * [CXXNET](https://github.com/antinucleon/cxxnet) - Yet another deep learning framework with less than 1000 lines core code [DEEP LEARNING]
-* [XGBoost](https://github.com/tqchen/xgboost) - A parallelized optimized general purpose gradient boosting library.
+* [XGBoost](https://github.com/dmlc/xgboost) - A parallelized optimized general purpose gradient boosting library.
 * [CUDA](https://code.google.com/p/cuda-convnet/) - This is a fast C++/CUDA implementation of convolutional [DEEP LEARNING]
 * [Stan](http://mc-stan.org/) - A probabilistic programming language implementing full Bayesian statistical inference with Hamiltonian Monte Carlo sampling
 * [BanditLib](https://github.com/jkomiyama/banditlib) - A simple Multi-armed Bandit library.
-* [Timbl](http://ilk.uvt.nl/timbl) - A software package/C++ library implementing several memory-based learning algorithms, among which IB1-IG, an implementation of k-nearest neighbor classification, and IGTree, a decision-tree approximation of IB1-IG. Commonly used for NLP.
+* [Timbl](http://ilk.uvt.nl/timbl/) - A software package/C++ library implementing several memory-based learning algorithms, among which IB1-IG, an implementation of k-nearest neighbor classification, and IGTree, a decision-tree approximation of IB1-IG. Commonly used for NLP.
 
 <a name="cpp-nlp" />
 #### Natural Language Processing
 * [MIT Information Extraction Toolkit](https://github.com/mit-nlp/MITIE) - C, C++, and Python tools for named entity recognition and relation extraction
 * [CRF++](https://taku910.github.io/crfpp/) - Open source implementation of Conditional Random Fields (CRFs) for segmenting/labeling sequential data & other Natural Language Processing tasks.
 * [CRFsuite](http://www.chokkan.org/software/crfsuite/) - CRFsuite is an implementation of Conditional Random Fields (CRFs) for labeling sequential data.
-* [BLLIP Parser](http://github.com/BLLIP/bllip-parser) - BLLIP Natural Language Parser (also known as the Charniak-Johnson parser)
+* [BLLIP Parser](https://github.com/BLLIP/bllip-parser) - BLLIP Natural Language Parser (also known as the Charniak-Johnson parser)
 * [colibri-core](https://github.com/proycon/colibri-core) - C++ library, command line tools, and Python binding for extracting and working with basic linguistic constructions such as n-grams and skipgrams in a quick and memory-efficient way.
 * [ucto](https://github.com/proycon/ucto) - Unicode-aware regular-expression based tokenizer for various languages. Tool and C++ library. Supports FoLiA format.
-* [libfolia](https://github.com/proycon/libfolia) - C++ library for the [FoLiA format](https://proycon.github.io/folia)
+* [libfolia](https://github.com/proycon/libfolia) - C++ library for the [FoLiA format](http://proycon.github.io/folia/)
 * [frog](https://github.com/proycon/frog) - Memory-based NLP suite developed for Dutch: PoS tagger, lemmatiser, dependency parser, NER, shallow parser, morphological analyzer.
 * [MeTA](https://github.com/meta-toolkit/meta) - [MeTA : ModErn Text Analysis](https://meta-toolkit.org/) is a C++ Data Sciences Toolkit that facilitates mining big text data.
 
@@ -218,7 +218,7 @@ For a list of free machine learning books available for download, go [here](http
 * [bayesian](https://github.com/jbrukh/bayesian) - Naive Bayesian Classification for Golang.
 * [go-galib](https://github.com/thoj/go-galib) - Genetic Algorithms library written in Go / golang
 * [Cloudforest](https://github.com/ryanbressler/CloudForest) - Ensembles of decision trees in go/golang.
-* [gobrain](https://github.com/jonhkr/gobrain) - Neural Networks written in go
+* [gobrain](https://github.com/goml/gobrain) - Neural Networks written in go
 
 <a name="go-data-analysis" />
 #### Data Analysis / Data Visualization
@@ -234,9 +234,9 @@ For a list of free machine learning books available for download, go [here](http
 #### General-Purpose Machine Learning
 * [haskell-ml](https://github.com/ajtulloch/haskell-ml) - Haskell implementations of various ML algorithms.
 * [HLearn](https://github.com/mikeizbicki/HLearn) - a suite of libraries for interpreting machine learning models according to their algebraic structure.
-* [hnn](http://www.haskell.org/haskellwiki/HNN) - Haskell Neural Network library.
+* [hnn](https://wiki.haskell.org/HNN) - Haskell Neural Network library.
 * [hopfield-networks](https://github.com/ajtulloch/hopfield-networks) - Hopfield Networks for unsupervised learning in Haskell.
-* [caffegraph](https://github.com/ajtulloch/caffegraph) - A DSL for deep neural networks
+* [caffegraph](https://github.com/ajtulloch/dnngraph) - A DSL for deep neural networks
 * [LambdaNet](https://github.com/jbarrow/LambdaNet) - Configurable Neural Networks in Haskell
 
 <a name="java" />
@@ -244,7 +244,7 @@ For a list of free machine learning books available for download, go [here](http
 
 <a name="java-nlp" />
 #### Natural Language Processing
-* [Cortical.io](http://cortical.io) - Retina: an API performing complex NLP operations (disambiguation, classification, streaming text filtering, etc...) as quickly and intuitively as the brain. 
+* [Cortical.io](http://www.cortical.io/) - Retina: an API performing complex NLP operations (disambiguation, classification, streaming text filtering, etc...) as quickly and intuitively as the brain. 
 * [CoreNLP](http://nlp.stanford.edu/software/corenlp.shtml) - Stanford CoreNLP provides a set of natural language analysis tools which can take raw English language text input and give the base forms of words
 * [Stanford Parser](http://nlp.stanford.edu/software/lex-parser.shtml) - A natural language parser is a program that works out the grammatical structure of sentences
 * [Stanford POS Tagger](http://nlp.stanford.edu/software/tagger.shtml) - A Part-Of-Speech Tagger (POS Tagger
@@ -267,12 +267,13 @@ For a list of free machine learning books available for download, go [here](http
 <a name="java-general-purpose" />
 #### General-Purpose Machine Learning
 
+* [aerosolve](https://github.com/airbnb/aerosolve) - A machine learning library by Airbnb designed from the ground up to be human friendly.
 * [Datumbox](https://github.com/datumbox/datumbox-framework) - Machine Learning framework for rapid development of Machine Learning and Statistical applications
 * [ELKI](http://elki.dbs.ifi.lmu.de/) - Java toolkit for data mining. (unsupervised: clustering, outlier detection etc.)
 * [Encog](https://github.com/encog/encog-java-core) - An advanced neural network and machine learning framework. Encog contains classes to create a wide variety of networks, as well as support classes to normalize and process data for these neural networks. Encog trains using multithreaded resilient propagation. Encog can also make use of a GPU to further speed processing time. A GUI based workbench is also provided to help model and train neural networks.
 * [H2O](https://github.com/h2oai/h2o-3) - ML engine that supports distributed learning on Hadoop, Spark or your laptop via APIs in R, Python, Scala, REST/JSON.
 * [htm.java](https://github.com/numenta/htm.java) - General Machine Learning library using Numenta’s Cortical Learning Algorithm
-* [java-deeplearning](https://github.com/agibsonccc/java-deeplearning) - Distributed Deep Learning Platform for Java, Clojure,Scala
+* [java-deeplearning](https://github.com/deeplearning4j/deeplearning4j) - Distributed Deep Learning Platform for Java, Clojure,Scala
 * [JAVA-ML](http://java-ml.sourceforge.net/) - A general ML library with a common interface for all algorithms in Java
 * [JSAT](https://code.google.com/p/java-statistical-analysis-tool/) - Numerous Machine Learning algorithms for classification, regression, and  clustering.
 * [Mahout](https://github.com/apache/mahout) - Distributed machine learning
@@ -283,6 +284,8 @@ For a list of free machine learning books available for download, go [here](http
 * [RankLib](http://sourceforge.net/p/lemur/wiki/RankLib/) - RankLib is a library of learning to rank algorithms
 * [RapidMiner](http://rapid-i.com/wiki/index.php?title=Integrating_RapidMiner_into_your_application) - RapidMiner integration into Java code
 * [Stanford Classifier](http://nlp.stanford.edu/software/classifier.shtml) - A classifier is a machine learning tool that will take data items and place them into one of k classes.
+* [SmileMiner](https://github.com/haifengl/smile) - Statistical Machine Intelligence & Learning Engine
+* [SystemML](https://github.com/apache/incubator-systemml) - flexible, scalable machine learning (ML) language.
 * [WalnutiQ](https://github.com/WalnutiQ/WalnutiQ) - object oriented model of the human brain
 * [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Weka is a collection of machine learning algorithms for data mining tasks
 
@@ -295,11 +298,13 @@ For a list of free machine learning books available for download, go [here](http
 * [Hadoop](https://github.com/apache/hadoop-mapreduce) - Hadoop/HDFS
 * [Spark](https://github.com/apache/spark) - Spark is a fast and general engine for large-scale data processing.
 * [Impala](https://github.com/cloudera/impala) - Real-time Query for Hadoop
+* [DataMelt](http://jwork.org/dmelt/) - Mathematics software for numeric computation, statistics, symbolic calculations, data analysis and data visualization.
+* [Dr. Michael Thomas Flanagan's Java Scientific Library](http://www.ee.ucl.ac.uk/~mflanaga/java/) 
 
 <a name="java-deep-learning" />
 #### Deep Learning
 
-* [Deeplearning4j](https://github.com/SkymindIO/deeplearning4j/) - Scalable deep learning for industry with parallel GPUs
+* [Deeplearning4j](https://github.com/deeplearning4j/deeplearning4j) - Scalable deep learning for industry with parallel GPUs
 
 <a name="javascript" />
 ## Javascript
@@ -311,7 +316,7 @@ For a list of free machine learning books available for download, go [here](http
 * [NLP.js](https://github.com/nicktesla/nlpjs) - NLP utilities in javascript and coffeescript
 * [natural](https://github.com/NaturalNode/natural) - General natural language facilities for node
 * [Knwl.js](https://github.com/loadfive/Knwl.js) - A Natural Language Processor in JS
-* [Retext](http://github.com/wooorm/retext) - Extensible system for analyzing and manipulating natural language
+* [Retext](https://github.com/wooorm/retext) - Extensible system for analyzing and manipulating natural language
 * [TextProcessing](https://www.mashape.com/japerk/text-processing/support) - Sentiment analysis, stemming and lemmatization, part-of-speech tagging and chunking, phrase extraction and named entity recognition.
 * [NLP Compromise](https://github.com/spencermountain/nlp_compromise) - Natural Language processing in the browser
 
@@ -328,6 +333,7 @@ For a list of free machine learning books available for download, go [here](http
 * [amCharts](http://www.amcharts.com/)
 * [D3xter](https://github.com/NathanEpstein/D3xter) - Straight forward plotting built on D3
 * [statkit](https://github.com/rigtorp/statkit) - Statistics kit for JavaScript
+* [datakit](https://github.com/nathanepstein/datakit) - A lightweight framework for data analysis in JavaScript
 * [science.js](https://github.com/jasondavies/science.js/) - Scientific and statistical computing in JavaScript.
 * [Z3d](https://github.com/NathanEpstein/Z3d) - Easily make interactive 3d plots built on Three.js
 * [Sigma.js](http://sigmajs.org/) - JavaScript library dedicated to graph drawing.
@@ -341,11 +347,11 @@ For a list of free machine learning books available for download, go [here](http
 
 * [Convnet.js](http://cs.stanford.edu/people/karpathy/convnetjs/) - ConvNetJS is a Javascript library for training Deep Learning models[DEEP LEARNING]
 * [Clusterfck](http://harthur.github.io/clusterfck/) - Agglomerative hierarchical clustering implemented in Javascript for Node.js and the browser
-* [Clustering.js](https://github.com/tixz/clustering.js) - Clustering algorithms implemented in Javascript for Node.js and the browser
+* [Clustering.js](https://github.com/emilbayes/clustering.js) - Clustering algorithms implemented in Javascript for Node.js and the browser
 * [Decision Trees](https://github.com/serendipious/nodejs-decision-tree-id3) - NodeJS Implementation of Decision Tree using ID3 Algorithm
 * [figue](http://code.google.com/p/figue/) - K-means, fuzzy c-means and agglomerative clustering
 * [Node-fann](https://github.com/rlidwka/node-fann) - FANN (Fast Artificial Neural Network Library) bindings for Node.js
-* [Kmeans.js](https://github.com/tixz/kmeans.js) - Simple Javascript implementation of the k-means algorithm, for node.js and the browser
+* [Kmeans.js](https://github.com/emilbayes/kMeans.js) - Simple Javascript implementation of the k-means algorithm, for node.js and the browser
 * [LDA.js](https://github.com/primaryobjects/lda) - LDA topic modeling for node.js
 * [Learning.js](https://github.com/yandongliu/learningjs) - Javascript implementation of logistic regression/c4.5 decision tree
 * [Machine Learning](http://joonku.com/project/machine_learning) - Machine learning library for Node.js
@@ -359,12 +365,13 @@ For a list of free machine learning books available for download, go [here](http
 * [kalman](https://github.com/itamarwe/kalman) - Kalman filter for Javascript.
 * [shaman](https://github.com/dambalah/shaman) - node.js library with support for both simple and multiple linear regression.
 * [ml.js](https://github.com/mljs/ml) - Machine learning and numerical analysis tools for Node.js and the Browser!
+* [Pavlov.js](https://github.com/NathanEpstein/Pavlov.js) - Reinforcement learning using Markov Decision Processes
 
 <a name="javascript-misc" />
 #### Misc
 
 * [sylvester](https://github.com/jcoglan/sylvester) - Vector and Matrix math for JavaScript.
-* [simple-statistics](https://github.com/tmcw/simple-statistics) - A JavaScript implementation of descriptive, regression, and inference statistics. Implemented in literate JavaScript with no dependencies, designed to work in all modern browsers (including IE) as well as in node.js.
+* [simple-statistics](https://github.com/simple-statistics/simple-statistics) - A JavaScript implementation of descriptive, regression, and inference statistics. Implemented in literate JavaScript with no dependencies, designed to work in all modern browsers (including IE) as well as in node.js.
 * [regression-js](https://github.com/Tom-Alexander/regression-js) - A javascript library containing a collection of least squares fitting methods for finding a trend in a set of data.
 * [Lyric](https://github.com/flurry/Lyric) - Linear Regression library.
 * [GreatCircle](https://github.com/mwgg/GreatCircle) - Library for calculating great circle distance.
@@ -378,7 +385,7 @@ For a list of free machine learning books available for download, go [here](http
 * [MachineLearning](https://github.com/benhamner/MachineLearning.jl) - Julia Machine Learning library
 * [MLBase](https://github.com/JuliaStats/MLBase.jl) - A set of functions to support the development of machine learning algorithms
 * [PGM](https://github.com/JuliaStats/PGM.jl) - A Julia framework for probabilistic graphical models.
-* [DA](https://github.com/trthatcher/DA.jl) - Julia package for Regularized Discriminant Analysis
+* [DA](https://github.com/trthatcher/DiscriminantAnalysis.jl) - Julia package for Regularized Discriminant Analysis
 * [Regression](https://github.com/lindahua/Regression.jl) - Algorithms for regression analysis (e.g. linear regression and logistic regression)
 * [Local Regression](https://github.com/dcjones/Loess.jl) - Local regression, so smooooth!
 * [Naive Bayes](https://github.com/nutsiepully/NaiveBayes.jl) - Simple Naive Bayes implementation in Julia
@@ -386,7 +393,7 @@ For a list of free machine learning books available for download, go [here](http
 * [Simple MCMC](https://github.com/fredo-dedup/SimpleMCMC.jl) - basic mcmc sampler implemented in Julia
 * [Distance](https://github.com/JuliaStats/Distance.jl) - Julia module for Distance evaluation
 * [Decision Tree](https://github.com/bensadeghi/DecisionTree.jl) - Decision Tree Classifier and Regressor
-* [Neural](https://github.com/compressed/neural.jl) - A neural network in Julia
+* [Neural](https://github.com/compressed/BackpropNeuralNet.jl) - A neural network in Julia
 * [MCMC](https://github.com/doobwa/MCMC.jl) - MCMC tools for Julia
 * [Mamba](https://github.com/brian-j-smith/Mamba.jl) - Markov chain Monte Carlo (MCMC) for Bayesian analysis in Julia
 * [GLM](https://github.com/JuliaStats/GLM.jl) - Generalized linear models in Julia
@@ -399,7 +406,7 @@ For a list of free machine learning books available for download, go [here](http
 * [NMF](https://github.com/JuliaStats/NMF.jl) - A Julia package for non-negative matrix factorization
 * [ANN](https://github.com/EricChiang/ANN.jl) - Julia artificial neural networks
 * [Mocha](https://github.com/pluskid/Mocha.jl) - Deep Learning framework for Julia inspired by Caffe
-* [XGBoost](https://github.com/antinucleon/XGBoost.jl) - eXtreme Gradient Boosting Package in Julia
+* [XGBoost](https://github.com/dmlc/XGBoost.jl) - eXtreme Gradient Boosting Package in Julia
 * [ManifoldLearning](https://github.com/wildart/ManifoldLearning.jl) - A Julia package for manifold learning and nonlinear dimensionality reduction
 
 <a name="julia-nlp" />
@@ -418,21 +425,21 @@ For a list of free machine learning books available for download, go [here](http
 * [Data Read](https://github.com/WizardMac/DataRead.jl) - Read files from Stata, SAS, and SPSS
 * [Hypothesis Tests](https://github.com/JuliaStats/HypothesisTests.jl) - Hypothesis tests for Julia
 * [Gadfly](https://github.com/dcjones/Gadfly.jl) - Crafty statistical graphics for Julia.
-* [Stats](https://github.com/johnmyleswhite/stats.jl) - Statistical tests for Julia
+* [Stats](https://github.com/JuliaStats/Stats.jl) - Statistical tests for Julia
 
 * [RDataSets](https://github.com/johnmyleswhite/RDatasets.jl) - Julia package for loading many of the data sets available in R
 * [DataFrames](https://github.com/JuliaStats/DataFrames.jl) - library for working with tabular data in Julia
 * [Distributions](https://github.com/JuliaStats/Distributions.jl) - A Julia package for probability distributions and associated functions.
 * [Data Arrays](https://github.com/JuliaStats/DataArrays.jl) - Data structures that allow missing values
 * [Time Series](https://github.com/JuliaStats/TimeSeries.jl) - Time series toolkit for Julia
-* [Sampling](https://github.com/JuliaStats/Sampling.jl) - Basic sampling algorithms for Julia
+* [Sampling](https://github.com/lindahua/Sampling.jl) - Basic sampling algorithms for Julia
 
 <a name="julia-misc" />
 #### Misc Stuff / Presentations
 
 * [DSP](https://github.com/JuliaDSP/DSP.jl) - Digital Signal Processing (filtering, periodograms, spectrograms, window functions).
 * [JuliaCon Presentations](https://github.com/JuliaCon/presentations) - Presentations for JuliaCon
-* [SignalProcessing](https://github.com/davidavdav/SignalProcessing) - Signal Processing tools for Julia
+* [SignalProcessing](https://github.com/davidavdav/SignalProcessing.jl) - Signal Processing tools for Julia
 * [Images](https://github.com/timholy/Images.jl) - An image library for Julia
 
 <a name="lua" />
@@ -533,7 +540,7 @@ on MNIST digits[DEEP LEARNING]
 * [Machine Learning Module](https://github.com/josephmisiti/machine-learning-module) - Class on machine w/ PDF,lectures,code
 * [Caffe](http://caffe.berkeleyvision.org)  - A deep learning framework developed with cleanliness, readability, and speed in mind.
 * [Pattern Recognition Toolbox](https://github.com/newfolder/PRT)  - A complete object-oriented environment for machine learning in Matlab.
-* [Pattern Recognition and Machine Learning](https://github.com/PRML/PRML) - This package contains the matlab implementation of the algorithms described in the book Pattern Recognition and Machine Learning by C. Bishop.
+* [Pattern Recognition and Machine Learning](https://github.com/PRML/PRMLT) - This package contains the matlab implementation of the algorithms described in the book Pattern Recognition and Machine Learning by C. Bishop.
 * [Optunity](http://docs.optunity.net) - A library dedicated to automated hyperparameter optimization with a simple, lightweight API to facilitate drop-in replacement of grid search. Optunity is written in Python but interfaces seamlessly with MATLAB.
 
 <a name="matlab-data-analysis" />
@@ -624,7 +631,7 @@ on MNIST digits[DEEP LEARNING]
 * [nut](https://github.com/pprett/nut) - Natural language Understanding Toolkit
 * [Rosetta](https://github.com/columbia-applied-data-science/rosetta) - Text processing tools and wrappers (e.g. Vowpal Wabbit)
 * [BLLIP Parser](https://pypi.python.org/pypi/bllipparser/) - Python bindings for the BLLIP Natural Language Parser (also known as the Charniak-Johnson parser)
-* [PyNLPl](https://github.com/proycon/pynlpl) - Python Natural Language Processing Library. General purpose NLP library for Python. Also contains some specific modules for parsing common NLP formats, most notably for [FoLiA](https://proycon.github.io/folia), but also ARPA language models, Moses phrasetables, GIZA++ alignments.
+* [PyNLPl](https://github.com/proycon/pynlpl) - Python Natural Language Processing Library. General purpose NLP library for Python. Also contains some specific modules for parsing common NLP formats, most notably for [FoLiA](http://proycon.github.io/folia/), but also ARPA language models, Moses phrasetables, GIZA++ alignments.
 * [python-ucto](https://github.com/proycon/python-ucto) - Python binding to ucto (a unicode-aware rule-based tokenizer for various languages)
 * [python-frog](https://github.com/proycon/python-frog) - Python binding to Frog, an NLP suite for Dutch. (pos tagging, lemmatisation, dependency parsing, NER)
 * [python-zpar](https://github.com/EducationalTestingService/python-zpar) - Python bindings for [ZPar](https://github.com/frcchang/zpar), a statistical part-of-speech-tagger, constiuency parser, and dependency parser for English.
@@ -635,11 +642,12 @@ on MNIST digits[DEEP LEARNING]
 <a name="python-general-purpose" />
 #### General-Purpose Machine Learning
 * [machine learning](https://github.com/jeff1evesque/machine-learning) - automated build consisting of a [web-interface](https://github.com/jeff1evesque/machine-learning#web-interface), and set of [programmatic-interface](https://github.com/jeff1evesque/machine-learning#programmatic-interface) API, for support vector machines.  Corresponding dataset(s) are stored into a SQL database, then generated model(s) used for prediction(s), are stored into a NoSQL datastore.
-* [XGBoost](https://github.com/tqchen/xgboost) - Python bindings for eXtreme Gradient Boosting (Tree) Library
+* [XGBoost](https://github.com/dmlc/xgboost) - Python bindings for eXtreme Gradient Boosting (Tree) Library
 * [Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) - Book/iPython notebooks on Probabilistic Programming in Python
 * [Featureforge](https://github.com/machinalis/featureforge) A set of tools for creating and testing machine learning features, with a scikit-learn compatible API
 * [MLlib in Apache Spark](http://spark.apache.org/docs/latest/mllib-guide.html) - Distributed machine learning library in Spark
 * [scikit-learn](http://scikit-learn.org/) - A Python module for machine learning built on top of SciPy.
+* [metric-learn](https://github.com/all-umass/metric-learn) - A Python module for metric learning. 
 * [SimpleAI](http://github.com/simpleai-team/simpleai) Python implementation of many of the artificial intelligence algorithms described on the book "Artificial Intelligence, a Modern Approach". It focuses on providing an easy to use, well documented and tested library.
 * [astroML](http://www.astroml.org/) - Machine Learning and Data Mining for Astronomy.
 * [graphlab-create](http://graphlab.com/products/create/docs/) - A library with various machine learning models (regression, clustering, recommender systems, graph analytics, etc.) implemented on top of a disk-backed DataFrame.
@@ -651,6 +659,7 @@ on MNIST digits[DEEP LEARNING]
 * [hebel](https://github.com/hannes-brt/hebel) - GPU-Accelerated Deep Learning Library in Python.
 * [Chainer](https://github.com/pfnet/chainer) - Flexible neural network framework
 * [gensim](https://github.com/piskvorky/gensim) - Topic Modelling for Humans.
+* [topik](https://github.com/ContinuumIO/topik) - Topic modelling toolkit
 * [PyBrain](https://github.com/pybrain/pybrain) - Another Python Machine Learning Library.
 * [Crab](https://github.com/muricoca/crab) - A ﬂexible, fast recommender engine.
 * [python-recsys](https://github.com/ocelma/python-recsys) - A Python library for implementing a Recommender System.
@@ -666,10 +675,11 @@ on MNIST digits[DEEP LEARNING]
 * [pyhsmm](https://github.com/mattjj/pyhsmm) - library for approximate unsupervised inference in Bayesian Hidden Markov Models (HMMs) and explicit-duration Hidden semi-Markov Models (HSMMs), focusing on the Bayesian Nonparametric extensions, the HDP-HMM and HDP-HSMM, mostly with weak-limit approximations.
 * [mrjob](https://pythonhosted.org/mrjob/) - A library to let Python program run on Hadoop.
 * [SKLL](https://github.com/EducationalTestingService/skll) - A wrapper around scikit-learn that makes it simpler to conduct experiments.
-* [neurolab](https://code.google.com/p/neurolab/) - https://code.google.com/p/neurolab/
+* [neurolab](https://github.com/zueve/neurolab) - https://github.com/zueve/neurolab
 * [Spearmint](https://github.com/JasperSnoek/spearmint) - Spearmint is a package to perform Bayesian optimization according to the algorithms outlined in the paper: Practical Bayesian Optimization of Machine Learning Algorithms. Jasper Snoek, Hugo Larochelle and Ryan P. Adams. Advances in Neural Information Processing Systems, 2012.
 * [Pebl](https://github.com/abhik/pebl/) - Python Environment for Bayesian Learning
 * [Theano](https://github.com/Theano/Theano/) - Optimizing GPU-meta-programming code generating array oriented optimizing math compiler in Python
+* [TensorFlow](https://github.com/tensorflow/tensorflow/) - Open source software library for numerical computation using data flow graphs
 * [yahmm](https://github.com/jmschrei/yahmm/) - Hidden Markov Models for Python, implemented in Cython for speed and efficiency.
 * [python-timbl](https://github.com/proycon/python-timbl) - A Python extension module wrapping the full TiMBL C++ programming interface. Timbl is an elaborate k-Nearest Neighbours machine learning toolkit.
 * [deap](https://github.com/deap/deap) - Evolutionary algorithm framework.
@@ -678,6 +688,9 @@ on MNIST digits[DEEP LEARNING]
 * [neon](https://github.com/NervanaSystems/neon) - Nervana's [high-performance](https://github.com/soumith/convnet-benchmarks) Python-based Deep Learning framework [DEEP LEARNING]
 * [Optunity](http://docs.optunity.net) - A library dedicated to automated hyperparameter optimization with a simple, lightweight API to facilitate drop-in replacement of grid search.
 * [Neural Networks and Deep Learning](https://github.com/mnielsen/neural-networks-and-deep-learning) - Code samples for my book "Neural Networks and Deep Learning" [DEEP LEARNING]
+* [Annoy](https://github.com/spotify/annoy) - Approximate nearest neighbours implementation
+* [skflow](https://github.com/google/skflow) - Simplified interface for TensorFlow, mimicking Scikit Learn.
+* [TPOT](https://github.com/rhiever/tpot) - Tool that automatically creates and optimizes machine learning pipelines using genetic programming. Consider it your personal data science assistant, automating a tedious part of machine learning.
 
 <a name="python-data-analysis" />
 #### Data Analysis / Data Visualization
@@ -695,17 +708,18 @@ on MNIST digits[DEEP LEARNING]
 * [statsmodels](https://github.com/statsmodels/statsmodels) - Statistical modeling and econometrics in Python.
 * [astropy](http://www.astropy.org/) - A community Python library for Astronomy.
 * [matplotlib](http://matplotlib.org/) - A Python 2D plotting library.
-* [bokeh](https://github.com/ContinuumIO/bokeh) - Interactive Web Plotting for Python.
-* [plotly](https://plot.ly/python) - Collaborative web plotting for Python and matplotlib.
+* [bokeh](https://github.com/bokeh/bokeh) - Interactive Web Plotting for Python.
+* [plotly](https://plot.ly/python/) - Collaborative web plotting for Python and matplotlib.
 * [vincent](https://github.com/wrobstory/vincent) - A Python to Vega translator.
 * [d3py](https://github.com/mikedewar/d3py) - A plottling library for Python, based on [D3.js](http://d3js.org/).
 * [ggplot](https://github.com/yhat/ggplot) - Same API as ggplot2 for R.
+* [ggfortify](https://github.com/sinhrks/ggfortify) - Unified interface to ggplot2 popular R packages.
 * [Kartograph.py](https://github.com/kartograph/kartograph.py) - Rendering beautiful SVG maps in Python.
 * [pygal](http://pygal.org/) - A Python SVG Charts Creator.
 * [PyQtGraph](https://github.com/pyqtgraph/pyqtgraph) - A pure-python graphics and GUI library built on PyQt4 / PySide and NumPy.
 * [pycascading](https://github.com/twitter/pycascading)
 * [Petrel](https://github.com/AirSage/Petrel) - Tools for writing, submitting, debugging, and monitoring Storm topologies in pure Python.
-* [Blaze](https://github.com/ContinuumIO/blaze) - NumPy and Pandas interface to Big Data.
+* [Blaze](https://github.com/blaze/blaze) - NumPy and Pandas interface to Big Data.
 * [emcee](https://github.com/dfm/emcee) - The Python ensemble sampling toolkit for affine-invariant MCMC.
 * [windML](http://www.windml.org) - A Python Framework for Wind Energy Analysis and Prediction
 * [vispy](https://github.com/vispy/vispy) - GPU-based high-performance interactive OpenGL 2D/3D data visualization library
@@ -713,6 +727,7 @@ on MNIST digits[DEEP LEARNING]
 * [NuPIC Studio](https://github.com/nupic-community/nupic.studio) An all-in-one NuPIC Hierarchical Temporal Memory visualization and debugging super-tool!
 * [SparklingPandas](https://github.com/sparklingpandas/sparklingpandas) Pandas on PySpark (POPS)
 * [Seaborn](http://stanford.edu/~mwaskom/software/seaborn/) - A python visualization library based on matplotlib
+* [bqplot](https://github.com/bloomberg/bqplot) - An API for plotting in Jupyter (IPython)
 
 <a name="python-misc" />
 #### Misc Scripts / iPython Notebooks / Codebases
@@ -721,7 +736,7 @@ on MNIST digits[DEEP LEARNING]
 * [thinking stats 2](https://github.com/Wavelets/ThinkStats2)
 * [hyperopt](https://github.com/hyperopt/hyperopt-sklearn)
 * [numpic](https://github.com/numenta/nupic)
-* [2012-paper-diginorm](https://github.com/ged-lab/2012-paper-diginorm)
+* [2012-paper-diginorm](https://github.com/dib-lab/2012-paper-diginorm)
 * [A gallery of interesting IPython notebooks](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks)
 * [ipython-notebooks](https://github.com/ogrisel/notebooks)
 * [data-science-ipython-notebooks](https://github.com/donnemartin/data-science-ipython-notebooks) - Continually updated Data Science Python Notebooks: Spark, Hadoop MapReduce, HDFS, AWS, Kaggle, scikit-learn, matplotlib, pandas, NumPy, SciPy, and various command lines.
@@ -746,6 +761,7 @@ on MNIST digits[DEEP LEARNING]
 * [Python Programming for the Humanities](http://fbkarsdorp.github.io/python-course/) - Course for Python programming for the Humanities, assuming no prior knowledge. Heavy focus on text processing / NLP.
 * [GreatCircle](https://github.com/mwgg/GreatCircle) - Library for calculating great circle distance.
 * [Optunity examples](http://docs.optunity.net/notebooks/index.html) - Examples demonstrating how to use Optunity in synergy with machine learning libraries.
+* [Dive into Machine Learning  with Python Jupyter notebook and scikit-learn](https://github.com/hangtwenty/dive-into-machine-learning) - "I learned Python by hacking first, and getting serious *later.* I wanted to do this with Machine Learning. If this is your style, join me in getting a bit ahead of yourself."
 
 <a name="python-kaggle" />
 #### Kaggle Competition Source Code
@@ -932,7 +948,7 @@ on MNIST digits[DEEP LEARNING]
 #### General-Purpose Machine Learning
 
 * [Conjecture](https://github.com/etsy/Conjecture) - Scalable Machine Learning in Scalding
-* [brushfire](https://github.com/avibryant/brushfire) - decision trees and random forests for scalding
+* [brushfire](https://github.com/stripe/brushfire) - Distributed decision tree ensemble learning in Scala
 * [ganitha](https://github.com/tresata/ganitha) - scalding powered machine learning
 * [adam](https://github.com/bigdatagenomics/adam) - A genomics processing engine and specialized file format built using Apache Avro, Apache Spark and Parquet. Apache 2 licensed.
 * [bioscala](https://github.com/bioscala/bioscala) - Bioinformatics for the Scala programming language
@@ -945,6 +961,7 @@ on MNIST digits[DEEP LEARNING]
 
 <a name="swift-general-purpose" />
 #### General-Purpose Machine Learning
+* [BrainCore](https://github.com/aleph7/BrainCore) - The iOS and OS X neural network framework 
 * [swix](https://github.com/scottsievert/swix) - A bare bones library that
   includes a general matrix language and wraps some OpenCV for iOS development.
 
